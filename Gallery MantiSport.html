@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo Deportivo MantiSport</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS personalizado -->
+    <style>
+        /* Estilos personalizados para las secciones */
+        #futbol {
+            background-color: #31C900; /* Color de fondo para la sección de fútbol */
+            color: #ffffff; /* Color de texto */
+        }
+        
+        #baloncesto {
+            background-color: #FF0000; /* Color de fondo para la sección de baloncesto */
+            color: #ffffff; /* Color de texto */
+        }
+
+        /* Estilo personalizado para el encabezado */
+        header {
+            background-color: #0F0364; /* Color de fondo */
+            color: #ffffff; /* Color de texto */
+            padding: 10px 0; /* Espaciado interno */
+        }
+
+        /* Estilo personalizado para el contenedor de la imagen */
+        .main-image-container {
+            text-align: center; /* Centrar la imagen */
+            padding: 20px 0; /* Espaciado interno */
+            background-color: #0F0364; /* Color de fondo */
+        }
+
+        /* Estilo personalizado para la imagen */
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Eliminar el espacio extra debajo de la imagen */
+            margin: 0 auto; /* Centrar la imagen horizontalmente */
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-center">Gallery MantiSport</h1>
+    </header>
+
+    <!-- Imágenes a la par -->
+    <div class="row">
+        <!-- Imagen a la izquierda -->
+        <div class="col-md-6 main-image-container">
+            <img src="Mantis alegre.jpg" alt="Mascota del equipo deportivo" class="main-image img-fluid">
+            
+        </div>
+        <!-- Imagen a la derecha -->
+        <div class="col-md-6 main-image-container">
+            <img src="Escudo.jpg" alt="Escudo del equipo deportivo" class="main-image img-fluid">
+            
+        </div>
+    </div>
+
+    <!-- Enlace a la página de la galería de fotos de fútbol -->
+    <a href="soccer_galeria.html" style="text-decoration: none; color: inherit;">
+        <section id="futbol" class="text-center py-5">
+            <h2>Fútbol</h2>
+            <!-- Aquí irá la galería de imágene de fútbol -->
+        </section>
+    </a>
+
+    <!-- Enlace a la página de la galería de fotos de baloncesto -->
+    <a href="baloncesto_galeria.html" style="text-decoration: none; color: inherit;">
+        <section id="baloncesto" class="text-center py-5">
+            <h2>Baloncesto</h2>
+            <!-- Aquí irá la galería de imágenes de baloncesto -->
+        </section>
+    </a>
+</body>
+</html>
